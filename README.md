@@ -43,12 +43,12 @@ The Core module provides the fundamental parts of the framework, including the I
 
 ### Miscellaneous
 
-AOP: The Spring AOP (Aspect-Oriented Programming) module provides support for implementing cross-cutting concerns, such as logging, transaction management, and security, in a modular and reusable way. It allows you to separate the implementation of these concerns from the main business logic of your application, improving modularity and maintainability.
+1. AOP: The Spring AOP (Aspect-Oriented Programming) module provides support for implementing cross-cutting concerns, such as logging, transaction management, and security, in a modular and reusable way. It allows you to separate the implementation of these concerns from the main business logic of your application, improving modularity and maintainability.
 
-Aspect: The Spring Aspect module provides support for defining and using aspects, which are reusable modules that encapsulate cross-cutting concerns. It includes features such as pointcuts, advice, and join points, which allow you to define where and how aspects should be applied.
+2. Aspect: The Spring Aspect module provides support for defining and using aspects, which are reusable modules that encapsulate cross-cutting concerns. It includes features such as pointcuts, advice, and join points, which allow you to define where and how aspects should be applied.
 
-Messaging: module provides support for STOMP as the WebSocket sub-protocol to use in applications. It also supports an annotation programming model for routing and processing STOMP messages from WebSocket clients
+3. Messaging: module provides support for STOMP as the WebSocket sub-protocol to use in applications. It also supports an annotation programming model for routing and processing STOMP messages from WebSocket clients
 
-Text: module supports the testing of Spring components with JUnit
+4. Text: module supports the testing of Spring components with JUnit
 
-Instrumentation: module provides class instrumentation support and classloader implementations to be used in certain application servers.
+5. Instrumentation: module provides class instrumentation support and classloader implementations to be used in certain application servers.
